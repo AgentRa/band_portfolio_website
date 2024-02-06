@@ -3,7 +3,7 @@ import { withProviders } from './providers';
 
 const App = withProviders(() => {
   return (
-    <div className="app flex justify-center">
+    <div>
       <Routing />
     </div>
   );
